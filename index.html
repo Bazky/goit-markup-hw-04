@@ -12,6 +12,7 @@
     />
     <link rel="stylesheet" href=".//css/modern.normalize.css" />
     <link rel="stylesheet" href="./css/styles.css" />
+
     <title>WebStudio</title>
   </head>
   <body>
@@ -41,14 +42,21 @@
             </ul>
           </nav>
           <ul class="menu-links">
-            <li>
-              <a class="adress" href="info@devstudio.com" target="_blank"
-                >info@devstudio.com
+            <li class="mail-hover">
+              <a class="adress" href="info@devstudio.com" target="_blank">
+                <svg class="mail-icon" width="16" height="12">
+                  <use href="./images/icons.svg#icon-envelope"></use>
+                </svg>
+                info@devstudio.com
               </a>
             </li>
-            <li>
+
+            <li class="phone-hover">
               <a class="adress" href="+380961111111" target="_blank"
-                >+38 096 111 11 11</a
+                ><svg class="phone-icon" width="10" height="16">
+                  <use href="./images/icons.svg#icon-phone"></use>
+                </svg>
+                +38 096 111 11 11</a
               >
             </li>
           </ul>
@@ -64,41 +72,65 @@
         </div>
       </div>
     </div>
+
     <main>
       <div class="container">
-        <ul class="description">
-          <li>
-            <h3 class="description-header">ATTENTION TO DETAILS</h3>
-            <p>
-              We go into all the details and processes of your business to
-              develop a customized solution.
-            </p>
-          </li>
+        <div class="description-border">
+          <ul class="description">
+            <li>
+              <div class="description-border-icon">
+                <svg class="description-icon" width="70" height="70">
+                  <use href="./images/icons.svg#icon-antenna"></use>
+                </svg>
+              </div>
+              <h3 class="description-header">ATTENTION TO DETAILS</h3>
+              <p>
+                We go into all the details and processes of your business to
+                develop a customized solution.
+              </p>
+            </li>
 
-          <li>
-            <h3 class="description-header">PUNCTUALITY</h3>
-            <p>
-              With us, you can feel safe and secure. An important principle of
-              the company: respect your time and respect the agreed deadlines.
-            </p>
-          </li>
+            <li class="margin-punctuality">
+              <div class="description-border-icon">
+                <svg class="description-icon" width="70" height="70">
+                  <use href="./images/icons.svg#icon-clock"></use>
+                </svg>
+              </div>
+              <h3 class="description-header">PUNCTUALITY</h3>
+              <p>
+                With us, you can feel safe and secure. An important principle of
+                the company: respect your time and respect the agreed deadlines.
+              </p>
+            </li>
 
-          <li>
-            <h3 class="description-header">PLANNING</h3>
-            <p>
-              You will be able to observe and participate in every phase of
-              solution development and implementation.
-            </p>
-          </li>
-          <li>
-            <h3 class="description-header">MODERN TECHNOLOGIES</h3>
-            <p>
-              We use innovative tools to solve assigned tasks. It's time to
-              simplify work processes.
-            </p>
-          </li>
-        </ul>
+            <li>
+              <div class="description-border-icon">
+                <svg class="description-icon" width="70" height="70">
+                  <use href="./images/icons.svg#icon-diagram"></use>
+                </svg>
+              </div>
+              <h3 class="description-header">PLANNING</h3>
+              <p>
+                You will be able to observe and participate in every phase of
+                solution development and implementation.
+              </p>
+            </li>
+            <li>
+              <div class="description-border-icon">
+                <svg class="description-icon" width="70" height="70">
+                  <use href="./images/icons.svg#icon-astronaut"></use>
+                </svg>
+              </div>
+              <h3 class="description-header">MODERN TECHNOLOGIES</h3>
+              <p>
+                We use innovative tools to solve assigned tasks. It's time to
+                simplify work processes.
+              </p>
+            </li>
+          </ul>
+        </div>
       </div>
+
       <div class="container">
         <section class="section">
           <h2 class="section-headers">What we do</h2>
@@ -152,6 +184,28 @@
                     <strong>Christopher Walker</strong>
                   </p>
                   <p>Product Designer</p>
+                  <div class="team-icon">
+                    <div class="team-border-icon">
+                      <svg width="20" height="20">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </div>
+                    <div class="team-border-icon">
+                      <svg width="20" height="20">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </div>
+                    <div class="team-border-icon">
+                      <svg width="20" height="20">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </div>
+                    <div class="team-border-icon">
+                      <svg width="20" height="20">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </div>
+                  </div>
                 </li>
                 <li class="photo-border-team">
                   <figure class="figure">
@@ -165,6 +219,28 @@
                     <strong>Kylie Evans</strong>
                   </p>
                   <p>Frontend Developer</p>
+                  <div class="team-icon">
+                    <div class="team-border-icon">
+                      <svg width="20" height="20">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </div>
+                    <div class="team-border-icon">
+                      <svg width="20" height="20">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </div>
+                    <div class="team-border-icon">
+                      <svg width="20" height="20">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </div>
+                    <div class="team-border-icon">
+                      <svg width="20" height="20">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </div>
+                  </div>
                 </li>
                 <li class="photo-border-team">
                   <figure class="figure">
@@ -178,6 +254,28 @@
                     <strong>Ryan Harris</strong>
                   </p>
                   <p>Marketing</p>
+                  <div class="team-icon">
+                    <div class="team-border-icon">
+                      <svg width="20" height="20">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </div>
+                    <div class="team-border-icon">
+                      <svg width="20" height="20">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </div>
+                    <div class="team-border-icon">
+                      <svg width="20" height="20">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </div>
+                    <div class="team-border-icon">
+                      <svg width="20" height="20">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </div>
+                  </div>
                 </li>
                 <li class="photo-border-team">
                   <figure class="figure">
@@ -191,6 +289,28 @@
                     <strong>Tyler Moore</strong>
                   </p>
                   <p>UI Designer</p>
+                  <div class="team-icon">
+                    <div class="team-border-icon">
+                      <svg width="20" height="20">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </div>
+                    <div class="team-border-icon">
+                      <svg width="20" height="20">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </div>
+                    <div class="team-border-icon">
+                      <svg width="20" height="20">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </div>
+                    <div class="team-border-icon">
+                      <svg width="20" height="20">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </div>
+                  </div>
                 </li>
               </ul>
             </section>
@@ -198,28 +318,98 @@
         </div>
       </div>
     </main>
+    <div class="container">
+      <section class="section">
+        <h2 class="section-headers">Regular Customers</h2>
+        <ul class="regular-customer">
+          <li class="regular-customer-border">
+            <svg class="regular-customer-icon" width="106" height="60">
+              <use href="./images/icons.svg#icon-Logoone"></use>
+            </svg>
+          </li>
+
+          <li class="regular-customer-border">
+            <svg class="regular-customer-icon" width="106" height="60">
+              <use href="./images/icons.svg#icon-Logotwo"></use>
+            </svg>
+          </li>
+
+          <li class="regular-customer-border">
+            <svg class="regular-customer-icon" width="106" height="60">
+              <use href="./images/icons.svg#icon-Logothree"></use>
+            </svg>
+          </li>
+
+          <li class="regular-customer-border">
+            <svg class="regular-customer-icon" width="106" height="60">
+              <use href="./images/icons.svg#icon-Logofour"></use>
+            </svg>
+          </li>
+
+          <li class="regular-customer-border">
+            <svg class="regular-customer-icon" width="106" height="60">
+              <use href="./images/icons.svg#icon-Logofive"></use>
+            </svg>
+          </li>
+
+          <li class="regular-customer-border">
+            <svg class="regular-customer-icon" width="106" height="60">
+              <use href="./images/icons.svg#icon-Logosix"></use>
+            </svg>
+          </li>
+        </ul>
+      </section>
+    </div>
     <div class="background-footer">
       <div class="container">
         <footer class="footer-container">
-          <a href="./index.html" class="logo"
-            ><p><span class="web">Web</span>Studio</p></a
-          >
+          <div class="footer-contacts">
+            <a href="./index.html" class="logo"
+              ><p><span class="web">Web</span>Studio</p></a
+            >
 
-          <p class="footer-adress">
-            695 Park Ave, New York, NY 10065, United States
-          </p>
-          <address>
-            <div class="footer-adress-links">
-              <a class="adress" href="info@devstudio.com" target="_blank"
-                >info@devstudio.com
-              </a>
+            <p class="footer-adress">
+              695 Park Ave, New York, NY 10065, United States
+            </p>
+            <address>
+              <div class="footer-adress-links">
+                <a class="adress" href="info@devstudio.com" target="_blank"
+                  >info@devstudio.com
+                </a>
+              </div>
               <div class="footer-adress-number">
                 <a class="adress" href="+380961111111" target="_blank"
                   >+38 096 111 11 11</a
                 >
               </div>
+            </address>
+          </div>
+
+          <div class="socials-container">
+            <p class="find">FIND US ON</p>
+            <div class="footer-icon">
+              <div class="footer-border-icon">
+                <svg width="20" height="20">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </div>
+              <div class="footer-border-icon">
+                <svg width="20" height="20">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </div>
+              <div class="footer-border-icon">
+                <svg width="20" height="20">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </div>
+              <div class="footer-border-icon">
+                <svg width="20" height="20">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </div>
             </div>
-          </address>
+          </div>
         </footer>
       </div>
     </div>
