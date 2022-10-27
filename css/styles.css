@@ -112,13 +112,22 @@ ul {
 
 .background-main-text {
   box-sizing: border-box;
-  background-image: url(../images/mainwallpaper.jpg);
-  background-size: contain;
+  background-size: cover;
+  max-width: 1600px;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(255, 255, 255, 0)
+    ),
+    url(../images/mainwallpaper.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
 }
+
 .main-text-container {
   box-sizing: border-box;
   align-items: center;
-  padding: 200px 0 200px 0;
+  padding: 200px 0;
 }
 
 /* main background */ /* main background */ /* main background */ /* main background */
